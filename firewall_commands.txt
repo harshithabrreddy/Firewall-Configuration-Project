@@ -1,0 +1,17 @@
+
+---
+
+# 📁 2. firewall_commands.txt
+
+This file contains only commands.
+
+Copy this:
+
+```text id="r2"
+sudo ufw enable
+sudo ufw status
+sudo ufw status numbered
+sudo ufw deny 23
+sudo ufw allow 22
+sudo ufw delete deny 23
+sudo ufw reset
